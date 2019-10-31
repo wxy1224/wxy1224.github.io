@@ -451,8 +451,8 @@ pre {
 
 .container {
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
@@ -470,8 +470,8 @@ pre {
 
 .container-fluid {
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-right: auto;
   margin-left: auto; }
 
@@ -481,8 +481,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -10px;
-  margin-left: -10px; }
+  margin-right: -5px;
+  margin-left: -5px; }
 
 .no-gutters {
   margin-right: 0;
@@ -501,8 +501,8 @@ pre {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px; }
+  padding-right: 5px;
+  padding-left: 5px; }
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -3738,15 +3738,15 @@ input[type="button"].btn-block {
   -ms-flex-direction: column;
   flex-direction: column; }
   .card-deck .card {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   @media (min-width: 576px) {
     .card-deck {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
       flex-flow: row wrap;
-      margin-right: -10px;
-      margin-left: -10px; }
+      margin-right: -5px;
+      margin-left: -5px; }
       .card-deck .card {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3758,9 +3758,9 @@ input[type="button"].btn-block {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        margin-right: 10px;
+        margin-right: 5px;
         margin-bottom: 0;
-        margin-left: 10px; } }
+        margin-left: 5px; } }
 
 .card-group {
   display: -webkit-box;
@@ -3771,7 +3771,7 @@ input[type="button"].btn-block {
   -ms-flex-direction: column;
   flex-direction: column; }
   .card-group > .card {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   @media (min-width: 576px) {
     .card-group {
       -webkit-box-orient: horizontal;
