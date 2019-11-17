@@ -185,6 +185,7 @@ img {
   max-width: 100%;
 }
 
+
 @media (max-width: 768px) {
   h1, .h1 {
     font-size: 28px;
