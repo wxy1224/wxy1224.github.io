@@ -185,6 +185,21 @@ img {
   max-width: 100%;
 }
 
+.blog_card_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fill{
+  background:linear-gradient(180deg, #eeeeee, #ffffff);
+}
+
+.blog_card_top img{
+    flex-shrink: 0;
+    max-height: 500px;
+    width:auto;
+}
 
 @media (max-width: 768px) {
   h1, .h1 {
