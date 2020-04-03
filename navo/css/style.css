@@ -1,0 +1,133 @@
+@font-face { 
+	font-family: Book; 
+	src: url('../fonts/Gotham/Gotham-Book.otf'); 
+} 
+@font-face { 
+	font-family: XLight; 
+	src: url('../fonts/Gotham/Gotham-XLight.otf'); 
+}
+@font-face { 
+	font-family: RndBold; 
+	src: url('../fonts/Gotham/GothamRnd-Bold.otf'); 
+}
+@font-face { 
+	font-family: Mercury; 
+	src: url('../fonts/Mercury/Mercury.otf'); 
+}
+
+.bg-primary>.container{
+	padding-top: 80px;
+	padding-bottom:50px;
+	width: 70%;
+	margin-left: 0;
+	min-width: 320px;
+	overflow-x: scroll;
+}
+li{
+	font-size: 17px;
+}
+.border-bottom{
+	border-bottom: 1px white solid;
+}
+.bg-primary>img{
+	width:200px;
+}
+.signup-label{
+	float: left;
+	font-size: 18px;
+}
+.form-signin{
+	margin-top: 30px;
+}
+.form-control{
+	height: 45px;
+}
+.input-div{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#login>.container{
+	text-align: center;
+	width:60%;
+	min-width: 350px;
+}
+#features{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#login{
+	background-image: url("../img/navoPattern.png");
+	background-size: 400px 400px;
+	background-opacity: 0.5;
+}
+#submit-button{
+	text-transform: uppercase;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+ 	font-weight: 700;
+	width: auto;
+	background-color: #f05f40;
+	color:white;
+	border: 0;
+	border-radius: 300px;
+	height:55px;
+	padding: 15px 30px;
+	transition: all .35s;
+	vertical-align: middle;
+	touch-action: manipulation;
+  	cursor: pointer;
+  	margin: auto;
+}
+#submit-button:hover{
+	background-color: white;
+	border: 3px solid #f05f40;
+	color: #f05f40;
+	padding-top: 10px;
+}
+#register{
+	margin-left: 80px;
+	text-align: left;
+	color: gray;
+}
+
+#iphone1{
+	opacity: 0;
+	position:fixed;
+	left: 70%;
+	top: 130px;
+	-webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    z-index:0;
+}
+.hidden{
+	display: hidden;
+	opacity:0;
+}
+header{
+	z-index:1;
+}
+#login-div{
+	z-index: 2;
+}
+section#contact{
+	z-index: 3;
+}
+ul{
+	
+	font-family: XLight,Book;
+}
+p{
+	font-family: XLight,Book;
+}
+h2{
+	font-family: Mercury,RndBold;
+}
+.row{
+	margin-bottom: 60px;
+}
+
+	
